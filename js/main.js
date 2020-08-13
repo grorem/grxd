@@ -1,3 +1,6 @@
+
+
+
 $(document).ready(function() {
 
     /* Every time the window is scrolled ... */
@@ -146,7 +149,12 @@ $(document).ready(function() {
 
 });
 
-
+$('#arrows').click(function(){
+    $('html, body').animate({
+        scrollTop: $('#work' ).offset().top
+    }, 800);
+    return false;
+});
 
 
 $(function(){

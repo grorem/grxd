@@ -156,6 +156,15 @@ max-width: 100%;
   background-position: top;
 }
 
+.showcaseSection{
+  padding:20%;
+  display: flex;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+
+
 .section{
   height: 100vh;
   padding:20%;
@@ -237,6 +246,12 @@ max-width: 100%;
 }
 
 
+#showcase{
+  height:700px;
+  background: #000;
+  width:100%;
+}
+
 #work{
   background: #fff;
   background-size: cover;
@@ -265,8 +280,11 @@ max-width: 100%;
   margin-bottom: 250px;
 }
 
+
+
 .workSection{
   margin-top: 100px;
+  width:100%;
 
 }
 
@@ -981,13 +999,67 @@ z-index: 5;
   position:fixed;
   top:5%;
   left:5%;
-  font-size: 16px;
+  font-size: 18px;
   color:#fff;
   mix-blend-mode: difference;
   z-index: 99999;
 }
 
+#arrows{
+  position: absolute;
+  top:88vh;
+  left:45%;
+  z-index: 99999;
+}
 
+#arrows img{
+
+  height:64px;
+  width: 64px;
+  margin-top:10px;
+
+}
+
+#arrows img:hover{
+
+  cursor: pointer;
+
+}
+
+#showContainer{
+  position: absolute;
+  height:100%;
+  top: 96vh;
+  width: 55%;
+    margin:auto;
+}
+
+
+#showContainer Video{
+
+}
+
+
+#icons{
+  position:fixed;
+  bottom:45%;
+  left:5%;
+  font-size: 16px;
+  color:#fff;
+  z-index: 99999;
+}
+
+#icons img{
+  height:28px;
+  width: 28px;
+  color: #000;
+  margin-top:10px;
+
+}
+
+#icons img:hover{
+  opacity: .7;
+}
 
 #links{
   position:fixed;
@@ -997,7 +1069,6 @@ z-index: 5;
   color:#fff;
   mix-blend-mode: difference;
   z-index: 99999;
-
 }
 
 #contact{

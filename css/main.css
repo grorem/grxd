@@ -1,8 +1,8 @@
 @font-face {
   font-family: "thin";
-  src: url("../fonts/Raleway-Thin.ttf");
+  src: url("../fonts/Antonio-Light.ttf");
   src: local("?"),
-    url("../fonts/Raleway-Thin.ttf") format("truetype"),
+    url("../fonts/Antonio-Light.ttf") format("truetype"),
   }
 
   @font-face {
@@ -16,7 +16,7 @@
 
 @font-face {
 font-family: "header";
-src: url("../fonts/PlayfairDisplay-BlackItalic.ttf");
+src: url("../fonts/Antonio-Bold.ttf");
 src: local("?"),
 
   url("../fonts/PlayfairDisplay-BlackItalic.ttf") format("truetype"),
@@ -55,26 +55,34 @@ a{
 
 h2{
   font-family: header;
-  font-size: 4vw;
+  font-size: 5vw;
   color:#fff;
   mix-blend-mode: difference;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
 
 h3{
   font-family: header;
   font-size: 4vw;
-  color:#000;
+  color:#fff;
   mix-blend-mode: difference;
   margin-bottom: 0;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
 h4{
   font-family: header;
-  font-size: 24px;
-  color:#000;
+  font-size: 32px;
+  color:#fff;
+    mix-blend-mode: difference;
   position: relative;
   z-index: 2;
+  margin:0;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -115,7 +123,7 @@ p{
 }
 
 #intro{
-  background: url('../img/uxingFade.png');
+  background: url('../img/bwTopWhite.jpg');
   background-size: cover;
   background-position: top;
 }
@@ -163,11 +171,13 @@ max-width: 100%;
   text-align: left;
 }
 
-
+.extraMarginBottom{
+  margin-bottom: 222px;
+}
 
 .section{
   height: 100vh;
-  padding:20%;
+  padding:20% 6% 20% 15%;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
@@ -247,19 +257,63 @@ max-width: 100%;
 
 
 #showcase{
-  height:700px;
-  background: #000;
-  width:100%;
+  background: #fff;
+  margin:auto;
+}
+
+
+#showcase p{
+  text-align: center;
+  margin-bottom: -55px;
+  margin-top:122px;
+}
+
+#showcase h3{
+  text-align: center;
+}
+
+#showcase video{
+  width:99%;
+  height:99%;
+}
+
+
+.feature video{
+background: none;
+  height:99%;
+  width:99%;
+  -webkit-box-shadow: 10px 10px 54px -10px rgba(0,0,0,0.8);
+-moz-box-shadow: 10px 10px 54px -10px rgba(0,0,0,0.8);
+box-shadow: 10px 10px 54px -10px rgba(0,0,0,0.8);
+padding:0;
+
 }
 
 #work{
+  background: #0D0D0D;
+  background-size: cover;
+  background-position: top;
+  padding-top: 100px;
+  padding-bottom: 300px;
+  margin-bottom: -550px;
+}
+
+#work h3{
+  color: #fff;
+  margin-top:0;
+  mix-blend-mode: difference;
+}
+
+#project{
   background: #fff;
   background-size: cover;
   background-position: top;
   padding-top: 100px;
+  padding-bottom: 300px;
+  margin-bottom: -550px;
 }
 
-#work h3{
+#project h3{
   color: #fff;
   margin-top:0;
   mix-blend-mode: difference;
@@ -285,6 +339,7 @@ max-width: 100%;
 .workSection{
   margin-top: 100px;
   width:100%;
+  max-width: 1440px;
 
 }
 
@@ -379,8 +434,15 @@ align-items: center;
   margin:0;
 }
 
+.ezFade{
+  opacity: .5;
+  margin-bottom: -24px;
+}
+
 .productSubtitle{
   text-align: left;
+  color:#fff;
+    mix-blend-mode: difference;
 }
 
 .previewMargin{
@@ -429,7 +491,7 @@ align-items: center;
   font-family: header;
   width:160px;
   height:44px;
-  border: solid 1px;
+  border: solid 3px;
   background: #fff;
   text-align: center;
   padding:2%;
@@ -999,23 +1061,24 @@ z-index: 5;
   position:fixed;
   top:5%;
   left:5%;
-  font-size: 18px;
+  font-size: 16px;
   color:#fff;
   mix-blend-mode: difference;
   z-index: 99999;
+  font-family: header;
 }
 
 #arrows{
   position: absolute;
   top:88vh;
-  left:45%;
+  left:50%;
   z-index: 99999;
+  margin-left: auto;
 }
 
 #arrows img{
 
-  height:64px;
-  width: 64px;
+  height:32px;
   margin-top:10px;
 
 }
@@ -1050,8 +1113,8 @@ z-index: 5;
 }
 
 #icons img{
-  height:28px;
-  width: 28px;
+  height:20px;
+  width: 20px;
   color: #000;
   margin-top:10px;
 
@@ -1069,6 +1132,7 @@ z-index: 5;
   color:#fff;
   mix-blend-mode: difference;
   z-index: 99999;
+  font-family: header;
 }
 
 #contact{
@@ -1079,6 +1143,7 @@ z-index: 5;
   color:#fff;
   mix-blend-mode: difference;
   z-index: 99999;
+  font-family: header;
 }
 
 .chrome{
@@ -1186,6 +1251,12 @@ z-index: 5;
 .contain{
   padding-left:15%;
   padding-right:15%;
+}
+
+.showcase{
+  padding-left:15%;
+  padding-right:15%;
+  background: #fff;
 }
 
 

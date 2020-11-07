@@ -471,7 +471,7 @@ align-items: center;
 
 .interjectionCopy{
   margin-top: 250px;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 
@@ -668,13 +668,13 @@ align-items: center;
 }
 
 .previewTitle{
-  font-family: light;
+  font-family: header;
   font-size: 14px;
   color:#fff;
 }
 
 .previewSubtitle{
-  font-family: thin;
+  font-family: light;
   font-size: 14px;
   color:#fff;
 }
@@ -1039,11 +1039,14 @@ z-index: 5;
 
 .hideme5{
   opacity: 0;
-  margin-top:44px;
+  margin-top:70px;
 }
 
 
-
+.hideme6{
+  opacity: 0;
+  margin-top:250px;
+}
 
 
 

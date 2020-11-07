@@ -27,7 +27,7 @@ $(document).ready(function() {
 
         $('.hideme').each( function(i){
 
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight() - 450;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
             /* If the object is completely visible in the window, fade it it */
@@ -42,10 +42,10 @@ $(document).ready(function() {
 
         $('.hideme2').each( function(i){
 
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight() - 450;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-            /* If the object is completely visible in the window, fade it it */
+            /* If the object is completely visible in the window, fade it in */
             if( bottom_of_window > bottom_of_object ){
 
 
@@ -58,7 +58,7 @@ $(document).ready(function() {
 
         $('.hideme3').each( function(i){
 
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight() - 450;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
             /* If the object is completely visible in the window, fade it it */
@@ -74,7 +74,7 @@ $(document).ready(function() {
 
         $('.hideme4').each( function(i){
 
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight() - 450;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
             /* If the object is completely visible in the window, fade it it */
@@ -98,31 +98,32 @@ $(document).ready(function() {
 
         $('.hideme5').each( function(i){
 
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight() - 450;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > bottom_of_object ){
 
 
-                $('.hideme5').animate({'opacity':'1','margin-top':'0'},800);
+                $('.hideme5').animate({'opacity':'1','margin-top':'170'},800);
 
 
             }
+
 
         });
 
 
         $('.hideme6').each( function(i){
 
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight() - 450;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > bottom_of_object ){
 
 
-                $('.hideme6').animate({'opacity':'1','margin-top':'0'},1000);
+                $('.hideme6').animate({'opacity':'1','margin-top':'350'},1000);
 
 
             }
@@ -131,7 +132,7 @@ $(document).ready(function() {
 
         $('.hideme7').each( function(i){
 
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight() - 450;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
             /* If the object is completely visible in the window, fade it it */

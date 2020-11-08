@@ -1,5 +1,29 @@
 
+function countryHighlight(i) {
 
+
+   $('.ctry_1').animate({'opacity':'1'},300);
+   $('.ctry_1').animate({'opacity':'.3'},300);
+
+   $('.ctry_2').delay(300).animate({'opacity':'1'},300);
+   $('.ctry_2').animate({'opacity':'.3'},300);
+
+   $('.ctry_3').delay(600).animate({'opacity':'1'},300);
+   $('.ctry_3').animate({'opacity':'.3'},300);
+
+   $('.ctry_4').delay(900).animate({'opacity':'1'},300);
+   $('.ctry_4').animate({'opacity':'.3'},300);
+
+   $('.ctry_5').delay(1200).animate({'opacity':'1'},300);
+   $('.ctry_5').animate({'opacity':'.3'},300);
+
+   $('.ctry_6').delay(1400).animate({'opacity':'1'},300);
+   $('.ctry_6').animate({'opacity':'.3'},300);
+
+
+
+}
+setInterval(countryHighlight, 2300);
 
 $(document).ready(function() {
 
@@ -150,7 +174,7 @@ $(document).ready(function() {
 
 });
 
-$('#arrows').click(function(){
+$('#arrows, #arrows2').click(function(){
     $('html, body').animate({
         scrollTop: $('#work' ).offset().top
     }, 800);

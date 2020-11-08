@@ -334,7 +334,41 @@ padding:0;
   margin-bottom: 250px;
 }
 
+.countries{
+  margin:auto;
+  align-items: center;
+  display:flex;
+  margin-top:-100px;
+}
 
+.ctry_1{
+  opacity: .3;
+}
+
+.ctry_2{
+  opacity: .3;
+}
+
+.ctry_3{
+  opacity: .3;
+}
+
+.ctry_4{
+  opacity: .3;
+}
+
+.ctry_5{
+  opacity: .3;
+}
+
+.ctry_6{
+  opacity: .3;
+}
+
+.countries img{
+  max-width: 48px;
+  margin:5%;
+}
 
 .workSection{
   margin-top: 100px;
@@ -1087,6 +1121,27 @@ z-index: 5;
 }
 
 #arrows img:hover{
+
+  cursor: pointer;
+
+}
+
+#arrows2{
+  position: relative;
+  left:50%;
+  z-index: 99999;
+  margin-left: auto;
+  margin-bottom:88px;
+}
+
+#arrows2 img{
+
+  height:32px;
+  margin-top:10px;
+
+}
+
+#arrows2 img:hover{
 
   cursor: pointer;
 

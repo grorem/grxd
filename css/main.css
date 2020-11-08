@@ -259,6 +259,7 @@ max-width: 100%;
 #showcase{
   background: #fff;
   margin:auto;
+
 }
 
 
@@ -275,6 +276,8 @@ max-width: 100%;
 #showcase video{
   width:99%;
   height:99%;
+  margin-top: 0px;
+  z-index: 99;
 }
 
 
@@ -366,8 +369,8 @@ padding:0;
 }
 
 .countries img{
-  max-width: 48px;
-  margin:5%;
+  max-height: 48px;
+  margin:5.2%;
 }
 
 .workSection{
@@ -1109,7 +1112,7 @@ z-index: 5;
   position: absolute;
   top:88vh;
   left:50%;
-  z-index: 99999;
+  z-index: 88;
   margin-left: auto;
 }
 
@@ -1120,11 +1123,6 @@ z-index: 5;
 
 }
 
-#arrows img:hover{
-
-  cursor: pointer;
-
-}
 
 #arrows2{
   position: relative;
@@ -1292,7 +1290,7 @@ z-index: 5;
 .researchHoverImg_2{
   position: absolute;
   left:150px;
-  bottom:100px;
+  top:100px;
   height:320px;
   width:450px;
   background: url('../img/usability.png');
@@ -1315,6 +1313,7 @@ z-index: 5;
   padding-left:15%;
   padding-right:15%;
   background: #fff;
+
 }
 
 

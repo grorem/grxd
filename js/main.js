@@ -1,4 +1,7 @@
 
+
+
+
 function countryHighlight(i) {
 
 
@@ -23,9 +26,13 @@ function countryHighlight(i) {
 
 
 }
-setInterval(countryHighlight, 2300);
+setInterval(countryHighlight, 2200);
+
+
 
 $(document).ready(function() {
+
+  $('#showcase').delay(2222).animate({'margin-top':'-48px'},600);
 
     /* Every time the window is scrolled ... */
     $(window).scroll( function(){
@@ -174,7 +181,7 @@ $(document).ready(function() {
 
 });
 
-$('#arrows, #arrows2').click(function(){
+$('#arrows2').click(function(){
     $('html, body').animate({
         scrollTop: $('#work' ).offset().top
     }, 800);

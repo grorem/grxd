@@ -262,7 +262,6 @@ max-width: 100%;
 
 }
 
-
 #showcase p{
   text-align: center;
   margin-bottom: -55px;
@@ -274,17 +273,17 @@ max-width: 100%;
 }
 
 #showcase video{
-  width:99%;
-  height:99%;
+  width:100%;
   margin-top: 0px;
   z-index: 99;
+  border-radius: 14px;
 }
 
 
 .feature video{
 background: none;
-  height:99%;
-  width:99%;
+  width:100%;
+
   -webkit-box-shadow: 10px 10px 54px -10px rgba(0,0,0,0.8);
 -moz-box-shadow: 10px 10px 54px -10px rgba(0,0,0,0.8);
 box-shadow: 10px 10px 54px -10px rgba(0,0,0,0.8);

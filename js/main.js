@@ -30,6 +30,8 @@ setInterval(countryHighlight, 2200);
 
 
 
+
+
 $(document).ready(function() {
 
   $('#showcase').delay(2222).animate({'margin-top':'-48px'},600);
@@ -187,6 +189,51 @@ $('#arrows2').click(function(){
     }, 800);
     return false;
 });
+
+
+
+
+
+var i=1;
+var j=i+1;
+
+
+$('#next').click(function(){
+
+
+    $('#vidFeature_'+i).fadeOut(200);
+    $('#vidFeature_'+j).delay(200).fadeIn(200);
+
+
+    if (i<1) {
+      i++;
+      j++;
+    }
+
+
+
+
+
+});
+
+
+$('#prev').click(function(){
+
+
+    $('#vidFeature_'+j).fadeOut(200);
+    $('#vidFeature_'+i).delay(200).fadeIn(200);
+
+    if (i>1) {
+      i--;
+      j--;
+    };
+
+
+});
+
+
+
+
 
 
 $(function(){

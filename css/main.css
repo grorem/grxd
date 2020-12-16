@@ -32,6 +32,14 @@ src: local("?"),
 
 }
 
+
+#oval{
+  -webkit-animation: dash 12s linear forwards infinite;
+  -moz-animation: dash 12s linear forwards infinite;
+  animation: dash 12s linear forwards infinite;
+}
+
+
 *, *:before, *:after {
   box-sizing: border-box;
 }

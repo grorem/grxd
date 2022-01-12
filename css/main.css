@@ -414,7 +414,7 @@ padding:0;
 }
 
 .workSection{
-  margin-top: 100px;
+  margin-top: 32px;
   width:100%;
   max-width: 1440px;
 
@@ -659,6 +659,12 @@ align-items: center;
 
 .phxPreview{
   background: url('../img/phx.png');
+  background-size: cover;
+}
+
+
+.catPreview{
+  background: url('../img/catalyst/catThumbnail.png');
   background-size: cover;
 }
 

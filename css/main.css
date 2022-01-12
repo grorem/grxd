@@ -547,6 +547,10 @@ align-items: center;
   margin-bottom: -24px;
 }
 
+.faded{
+    opacity: .3;
+}
+
 .productSubtitle{
   text-align: left;
   color:#fff;
@@ -579,7 +583,7 @@ align-items: center;
 
 .interjectionCopy{
   margin-top: 250px;
-  margin-bottom: 150px;
+  margin-bottom: 350px;
 }
 
 

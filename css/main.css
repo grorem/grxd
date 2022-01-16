@@ -353,9 +353,9 @@ padding:0;
   background: #fff;
   background-size: cover;
   background-position: top;
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 300px;
-  margin-bottom: -550px;
+  margin-bottom: -350px;
 }
 
 #work h3{
@@ -434,8 +434,9 @@ padding:0;
   margin-top: 32px;
   width:100%;
   max-width: 1440px;
-
 }
+
+
 
 .workSection img{
 width:100%;
@@ -444,6 +445,8 @@ width:100%;
 .workSection video{
 width:100%;
 }
+
+
 
 .subColumn{
   float:none;

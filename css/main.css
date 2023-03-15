@@ -19,16 +19,16 @@ font-family: "header";
 src: url("../fonts/Antonio-Bold.ttf");
 src: local("?"),
 
-  url("../fonts/PlayfairDisplay-BlackItalic.ttf") format("truetype"),
+  url("../fonts/Antonio-Bold.ttf") format("truetype"),
 
 }
 
 @font-face {
 font-family: "subHeader";
-src: url("../fonts/PlayfairDisplay-Italic.ttf");
+src: url("../fonts/Antonio-Bold.ttf");
 src: local("?"),
 
-  url("../fonts/PlayfairDisplay-Italic.ttf") format("truetype"),
+  url("../fonts/Antonio-Bold.ttf") format("truetype"),
 
 }
 
@@ -47,6 +47,7 @@ src: local("?"),
 
 
 body {
+  background-color: #090A0C;
   margin: 0px;
   font-family: light;
   height:100vh;
@@ -61,15 +62,27 @@ a{
 
 }
 
+h1{
+  margin-top:0;
+  font-family: header;
+  font-size: 9vw;
+  color:#fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 96%;
+}
+
 h2{
   margin-top:0;
   font-family: header;
-  font-size: 5vw;
+  font-size: 128px;
   color:#fff;
-  mix-blend-mode: difference;
   -webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 96%;
 }
+
+
 
 
 h3{
@@ -106,12 +119,15 @@ h5{
 
 
 p{
-
     font-family: light;
     color:#fff;
     mix-blend-mode: difference;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
+
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -141,7 +157,7 @@ p{
 }
 
 #intro{
-  background: url('../img/bwTopWhite.jpg');
+  background: url('../img/pinkSky.jpg');
   background-size: cover;
   background-position: top;
 }
@@ -276,6 +292,7 @@ max-width: 100%;
 
 #showcase{
   background: #fff;
+
   margin:auto;
 
 }
@@ -341,13 +358,21 @@ padding:0;
 }
 
 #work{
-  background: #0D0D0D;
-  background-size: cover;
-  background-position: top;
-  padding-top: 100px;
+  background-color: #fffefe;
+  padding-top: 256px;
   padding-bottom: 300px;
   margin-bottom: -550px;
+  margin-top: 64px;
+
 }
+
+.containTopBackground{
+  background: url('../img/bwTopWhite.jpg');
+  background-size: contain;
+  background-position: top;
+  background-repeat:no-repeat;
+}
+
 
 #work2{
   background: #fff;
@@ -356,6 +381,10 @@ padding:0;
   padding-top: 200px;
   padding-bottom: 300px;
   margin-bottom: -350px;
+}
+
+#work h2{
+  color: #000;
 }
 
 #work h3{
@@ -574,7 +603,9 @@ align-items: center;
 .productSubtitle{
   text-align: left;
   color:#fff;
-    mix-blend-mode: difference;
+  mix-blend-mode: difference;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .previewMargin{
@@ -1231,6 +1262,7 @@ z-index: 5;
   z-index: 99999;
   margin-left: auto;
   margin-bottom:88px;
+  color:#fff;
 }
 
 #arrows2 img{
@@ -1413,6 +1445,7 @@ z-index: 5;
 .containHome{
   padding-left:16%;
   padding-right:16%;
+  border-radius:188px;
 }
 
 .showcase{

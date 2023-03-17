@@ -154,6 +154,7 @@ p{
 
 .projectIntro h2{
   margin-bottom:0;
+  color:#000;
 }
 
 #intro{
@@ -193,9 +194,14 @@ max-width: 100%;
 
 
 #about{
-  background:url('../img/scooterBlk.png');
+  position:relative;
+  background:url('../img/uxing3.png');
   background-size: cover;
   background-position: top;
+  margin-top:-350px;
+  z-index: 0;
+  padding-top:550px;
+
 }
 
 .showcaseSection{
@@ -358,11 +364,12 @@ padding:0;
 }
 
 #work{
+  position: relative;
   background-color: #fffefe;
   padding-top: 256px;
   padding-bottom: 300px;
-  margin-bottom: -550px;
   margin-top: 64px;
+  z-index: 100;
 
 }
 
@@ -519,21 +526,29 @@ width:100%;
   width:25%;
 }
 
+.aspectRatio{
+  position: relative;
+  width:100%;
+  padding-top:95%;
+}
+
 
 .productPreview{
   position: relative;
-  height:500px;
+  height:421px;
   width: 100%;
   background: #fff;
   float: left;
   margin-bottom: 25px;
+  box-shadow: 0px 10px 48px rgba(0, 0, 0, 0.2);
+
 }
 
 
 
 .productPreview:hover{
   cursor: pointer;
-  box-shadow: 0px 10px 48px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 10px 48px rgba(0, 0, 0, 0.5);
 }
 
 

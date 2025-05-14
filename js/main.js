@@ -172,7 +172,7 @@ $(document).ready(function() {
             if( bottom_of_window > bottom_of_object ){
 
 
-                $('.hideme7').animate({'opacity':'1','margin-top':'0'},1400);
+                $('.hideme7').animate({'opacity':'1','margin-top':'88'},1400);
 
 
             }

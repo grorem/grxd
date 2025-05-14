@@ -63,13 +63,14 @@ a{
 }
 
 h1{
-  margin-top:0;
+
   font-family: header;
-  font-size: 9vw;
+  font-size: 10vh;
   color:#fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 96%;
+  line-height: 98%;
+
 }
 
 h2{
@@ -88,9 +89,10 @@ h2{
 h3{
   font-family: header;
   font-size: 4vw;
-  color:#fff;
-  mix-blend-mode: difference;
+  line-height: 4.1vw;
+  color:#fffefe;
   margin-bottom: 0;
+  margin-top:0;
   -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
@@ -98,8 +100,7 @@ h3{
 h4{
   font-family: header;
   font-size: 32px;
-  color:#fff;
-    mix-blend-mode: difference;
+  color:#222222;
   position: relative;
   z-index: 2;
   margin:0;
@@ -120,10 +121,9 @@ h5{
 
 p{
     font-family: light;
-    color:#fff;
-    mix-blend-mode: difference;
-    font-size: 16px;
-    line-height: 24px;
+    color:#f1f1f1;
+    font-size: 22px;
+    line-height: 28px;
 
     font-smooth: always;
     -webkit-font-smoothing: antialiased;
@@ -132,7 +132,8 @@ p{
 
 
 .projectSectionCopy{
-  margin-top:166px;
+  position: sticky;
+  top:56px;
 }
 
 
@@ -153,9 +154,14 @@ p{
 }
 
 .projectIntro h2{
-  margin-bottom:0;
-  color:#000;
+  color:#222222;
 }
+
+.projectTitle{
+  display: flex;
+  align-items:center;
+}
+
 
 #intro{
   background: url('../img/pinkSky.jpg');
@@ -394,9 +400,8 @@ padding:0;
 }
 
 #work h3{
-  color: #fff;
+  color: #222222;
   margin-top:0;
-  mix-blend-mode: difference;
 }
 
 #project{
@@ -404,18 +409,17 @@ padding:0;
   background-size: cover;
   background-position: top;
   padding-top: 100px;
-  padding-bottom: 300px;
-  margin-bottom: -550px;
+
+
 }
 
 #project h3{
-  color: #fff;
+  color: #222222;
   margin-top:0;
-  mix-blend-mode: difference;
 }
 
 #work h3:hover{
-  color:#fff;
+  color:#222222;
 }
 
 
@@ -426,7 +430,7 @@ padding:0;
 
 .clear{
   clear:both;
-  margin-bottom: 250px;
+  margin-bottom: 450px;
 }
 
 .countries{
@@ -468,9 +472,8 @@ padding:0;
 .workSection{
   margin-top: 44.4%;
   width:100%;
-  max-width: 1440px;
+  max-width: 1200px;
 }
-
 
 
 .workSection img{
@@ -478,6 +481,28 @@ width:100%;
 }
 
 .workSection video{
+width:100%;
+}
+
+
+.imgMargins img{
+  margin-bottom:48px;
+}
+
+
+
+.caseStudySection{
+  margin-top: 22.2%;
+  width:100%;
+  max-width: 1440px;
+}
+
+
+.caseStudySection img{
+width:100%;
+}
+
+.caseStudySection video{
 width:100%;
 }
 
@@ -672,13 +697,13 @@ align-items: center;
 
 
 .interjectionCopy{
-  margin-top: 250px;
-  margin-bottom: 350px;
+  margin-top: 222px;
+  margin-bottom: 222px;
 }
 
 
 .interjectionCopy p{
-  color:#fff;
+  color:#222222;
   font-size: 16px;
 }
 
@@ -758,6 +783,11 @@ align-items: center;
   background-size: cover;
 }
 
+.PLPreview{
+  background: url('../img/PL_bookingFlow/PL_thumbnail.jpg');
+  background-size: cover;
+}
+
 
 
 .crcPreview{
@@ -791,6 +821,18 @@ align-items: center;
   background-size: cover;
 }
 
+
+.HCwebPreview{
+  background: url('../img/HCweb/hcWeb_feature.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.editorPreview{
+  background: url('../img/catalyst/editor.png');
+  background-size: cover;
+}
 
 
 
@@ -1253,7 +1295,12 @@ z-index: 5;
 
 .hideme6{
   opacity: 0;
-  margin-top:250px;
+  margin-top: 48px;
+}
+
+.hideme7{
+  opacity: 0;
+  margin-top: 48px;
 }
 
 
@@ -1477,15 +1524,57 @@ z-index: 5;
 
 
 .contain{
-  padding-left:22%;
-  padding-right:22%;
+  padding-left:24%;
+  padding-right:24%;
 }
 
 .containHome{
-  padding-left:16%;
-  padding-right:16%;
-  border-radius:188px;
+  padding-left:24%;
+  padding-right:24%;
+  border-radius:122px;
 }
+
+.caseStudyHeader{
+  margin-top: -222px;
+}
+
+
+
+.PL_bookingFlow_caseStudyHeader{
+  height:94vh;
+  background: url('../img/clips/PL Booking.gif');
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+
+.HCweb_caseStudyHeader{
+  height:94vh;
+  background: url('../img/HCweb/Lecture hall _ annotations _ 1.png');
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.LP_caseStudyHeader{
+  height:94vh;
+  background: url('../img/catalyst/catGroup.png');
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.ef247_caseStudyHeader{
+  height:94vh;
+  background: url('../img/ef247/ef247Perspective.jpg');
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+
+
+
 
 .showcase{
   padding-left:15%;

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Greg Rorem UX Portfolio</title>
+	<link rel="shortcut icon" href="img/oval.svg" type="image/svg+xml" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Greg Rorem UX Designer IxD Visual Design Web Development Portfolio">
+	<meta name="author" content="">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" />
+
+</head>
+
+<body>
+
+
+
+<!-- START OF FIXED CHROME -->
+<!-- START OF FIXED CHROME -->
+<!-- START OF FIXED CHROME -->
+
+
+
+	<div class="chrome">
+		<div class="vNav">
+			<a href="index.html#1"><div class="back">< Back</div></a>
+		  </div>
+
+
+			<a href="index.html"><div id="logo"><b>GREG<br> ROREM</b><br><span class="thin">PRODUCT<br> DESIGNER</span></div></a>
+
+
+
+			<div id="links"> <a target="_blank" href="https://www.linkedin.com/in/grxd/">Linked In</a> | <a target="_blank" href="Greg Rorem _ Product Design Resume.pdf" download>Resumé</a></div>
+
+			<div id="contact">gmrorem@gmail.com</div>
+
+
+
+	</div>
+
+
+
+	<!-- END OF FIXED CHROME -->
+	<!-- END OF FIXED CHROME -->
+	<!-- END OF FIXED CHROME -->
+
+
+
+
+
+
+
+
+<div id="project" class="contain containHome caseStudyHeader">
+
+
+
+
+
+  <div class="row caseStudySection">
+
+    <div class="col-6">
+			<span class="projectIntro">
+
+				<h4>@EF / LONDON, UK / 2022 </h4>
+				<h2>PRIVATE LESSON BOOKING.</h2>
+
+
+
+			</span>
+    </div>
+
+    <div class="col-3">
+			<img src="img/enrol.gif">
+    </div>
+
+    <div class="col-3">
+						<img src="img/levelChart.gif">
+    </div>
+
+  </div>
+
+
+
+
+<div class="row">
+
+
+
+		<div class="col-sm-8">
+
+				<div class="interjectionCopy">
+					<h3 class="faded">TLDR;</h3>
+
+					<h3>ALIGN & DESIGN: REDUCE STUDENT CONFUSION TO REDUCE BUSINESS COST.</h3>
+
+
+					<p>
+						We knew what things about our product we felt are obvious to-dos, but we aren't the only ones who should be involved.
+						While simultaneously conducting studies with students and clients, I led a series of initial workshops with our business
+						and operations teams to go through the current product and highlight known issues.
+					</p>
+
+
+					<p>
+						My goal was to drive the conversation to be about the product as a whole end-to-end experience, rather than
+						a collection of pages and screens.
+					</p>
+
+				</div>
+
+		</div>
+
+				<div class="col-sm-4"></div>
+	</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="caseStudy" class="contain">
+
+
+
+
+
+	<div class="row workSection">
+
+
+			<div class="col-sm-5">
+
+					<div class="projectSectionCopy">
+						<h3 class="faded">OUR APPROACH:</h3>
+						<h3>A HYPOTHESIS.</h3>
+
+						<p>
+							By focusing on our students and their learning journey, we strongly felt that
+							by empowering them to learn English rather than having to learn how to use the school would bring the results the business was after. Reduced operations & support costs.
+						</p>
+
+						<p>
+							Students were, in general, confused and lost at times when navagating basic features of the school and what goals were set up by their
+							training managers at their own companies. "What do I need to do, by when, and how?"
+						</p>
+
+						<p>
+							This priority and approach we collected from usage data, support call center logs, and recent user studies which we took to the business and informed
+							our round of initial workshops to define, align and prioritize the problem before getting right into conceptual wireframes and exploring solutions.
+						</p>
+
+					</div>
+
+			</div>
+
+
+			<div class="col-sm-7 imgMargins">
+					<img src="img/vulture/journeyAndIssues.png">
+			</div>
+
+
+		</div>
+
+
+
+		<div class="row workSection">
+
+
+				<div class="col-sm-5">
+
+						<div class="projectSectionCopy">
+
+							<h3>DEFINE, ALIGN & PRIORITIZE.</h3>
+
+							<p>
+								We put ‘taking stakeholders along for the journey’ into practice: 3 part miniseries of workshops.
+							</p>
+
+							<p>
+								1. Identify the problems from user data and our knowledge. We gathered together business leaders, a support center manager, engineering, design and product team members.
+							</p>
+
+							<p>
+								2. We went away and digested all this info with the goal being to help show the business how these issues with the product were due to various issues across students' learning journies and not simply
+								contained in any one piecemeal sellable component, webpage or app view.
+							</p>
+
+							<p>
+								3. We discussed and ideated [sketching sessions], aligned and prioritized [debated and voted], and decided on our first set of priorities.
+							</p>
+
+						</div>
+
+				</div>
+
+
+				<div class="col-sm-7 imgMargins">
+					<img src="img/clips/stickies.gif">
+					<img src="img/vulture/group.JPG">
+					<img src="img/notes_2.png">
+					<img src="img/vulture/stickies.png">
+				</div>
+
+
+			</div>
+
+
+
+
+
+			<div class="row workSection">
+
+
+					<div class="col-sm-5">
+
+							<div class="projectSectionCopy">
+
+								<h3>OUR PROPOSAL</h3>
+
+								<p>
+									Having identified affinity of issues across the views for the overall product, as similar issues and thoughts spanned the divisions of discrete UIs, we set to work to bring back the initial proposal to the business
+									in the form of initial, high-level annotated wireframes.
+								</p>
+
+							</div>
+
+					</div>
+
+
+					<div class="col-sm-7 imgMargins">
+						<img src="img/vulture/cW.png">
+					</div>
+
+
+				</div>
+
+
+
+
+
+				<div class="row workSection">
+
+
+						<div class="col-sm-5">
+
+								<div class="projectSectionCopy">
+
+									<h3>Increasing fidelity: and continuing to test.</h3>
+
+									<p>
+										We then got into wires & designs for different descrete steps along the student journey, so far putting together a complete end-to-end design for enrolment & onboarding, and getting into the first lessons with clearer steps and phased introduction
+										to new features.
+									</p>
+
+									<p>
+										Prototyping early & light with something like InVision studio helps to explore a feel to the look and get it in front of people early on.
+									</p>
+
+									<p>
+										Using maze.design to reach our real students via banners in our school, and quickly going down to our office cafe and running flows and prototypes by folks, we keep up with frequent
+										sanity checks while building up to larger moderated studies.
+									</p>
+
+								</div>
+
+						</div>
+
+
+						<div class="col-sm-7 imgMargins">
+							<img src="img/vulture/cW.png">
+						</div>
+
+
+					</div>
+
+
+
+
+
+
+
+
+
+	<div class="row">
+
+
+
+			<div class="col-sm-9">
+
+					<div class="projectSectionCopy">
+						<h3></h3>
+
+
+
+					</div>
+
+			</div>
+
+					<div class="col-sm-4"></div>
+		</div>
+
+
+
+
+
+
+
+
+		<div class="row workSection">
+
+			<div class="col-sm-6">
+				<img src="img/vulture.png">
+			</div>
+
+
+			<div class="col-sm-2">
+				<img src="img/enrol.gif">
+			</div>
+
+			<div class="col-sm-4">
+				<img src="img/vulture/cafeSessions.png">
+			</div>
+
+
+		</div>
+
+
+
+	</div>
+
+
+
+
+
+	<div id="work2" class="contain">
+
+
+		<div class="row workSection">
+
+
+				<div class="col-sm-9">
+
+						<div class="projectSectionCopy">
+							<h3>Final UI (Mobile)</h3>
+
+							<p>
+								Here are a few examples of updated and newly created views in the mobile experience. Screens such as the home view, profile, and
+								anything relating to progress were added to the mobile experience as they were identified early as key features missing and/or some version
+								may have existed on desktop, but needed to be updated, yet didn't at all exist in the mobile experience.
+							</p>
+
+
+						</div>
+
+				</div>
+
+
+			</div>
+
+
+		<div class="row workSection">
+
+			<div class="col-sm-12">
+				<img src="img/vulture/schoolPhones1.png">
+			</div>
+
+		</div>
+
+
+		<div class="row workSection">
+
+			<div class="col-sm-12">
+				<img src="img/vulture/schoolPhones2.png">
+			</div>
+
+		</div>
+
+
+	</div>
+
+
+
+
+
+
+	<div class="clear"></div>
+
+
+	<div id="about" class="section">
+		<h2>Many thanks.<br> Please do be in touch via <a target="_blank" href="https://www.linkedin.com/in/grxd/"><span class="linkypoo designHover">LinkedIn</span></a>,  Download my <a target="_blank" href="Greg Rorem _ Product Design Resume.pdf" download><span class="linkypoo">resumé</span></a>  or stop by <a target="_blank" href="https://www.instagram.com/caffeinated_london/"><span class="linkypoo">instagram</span></a></h2>
+
+		<div class="aboutHalf"></div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/tilt.jquery.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
